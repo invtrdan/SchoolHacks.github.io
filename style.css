@@ -8,7 +8,7 @@
 body {
     height: 100vh;
     background-color: white;
-    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fillustrations%2Fplain-background-background-template-6055825%2F&psig=AOvVaw08TPiFaGuW1llpRMkVVQ6r&ust=1683789301870000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNjK2Yua6v4CFQAAAAAdAAAAABAR');
+    /* background-image: url(''); */
     background-size: cover;
     background-position: center;
 }
@@ -19,7 +19,7 @@ li {
 
 a {
     text-decoration: none;
-    color: black;
+    color: orange;
     font-size: 1rem;
 }
 
@@ -55,7 +55,7 @@ header {
 }
 
 .navbar .toggle_btn{
-    color: black;
+    color: purple;
     font-size: 1.5rem;
     cursor: pointer;
     display: none;
@@ -91,7 +91,7 @@ header {
     top: 60px;
     height: 0;
     width: 300px;
-    background: rgb(0, 0, 255, 0.1);
+    background: green;
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
