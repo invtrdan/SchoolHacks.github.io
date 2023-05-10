@@ -8,7 +8,7 @@
 body {
     height: 100vh;
     background-color: white;
-    background-image: url('https://etc.usf.edu/presentations/backgrounds/grid/grid_03/1204m.gif');
+    /* background-image: url(''); */
     background-size: cover;
     background-position: center;
 }
@@ -24,7 +24,8 @@ a {
 }
 
 a:hover {
-    color: blue;
+  color: blue;
+  /* background-color: #f0f0f0; */
 }
 
 /* HEADER */
@@ -93,6 +94,7 @@ header {
     width: 300px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
+    border: 1px solid #dddddd;
     border-radius: 10px;
     overflow: hidden;
     transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -102,7 +104,7 @@ header {
     height: 240px;
 }
 
-.dropown_menu li {
+.dropdown_menu li {
     padding: 0.7rem;
     display: flex;
     align-items: center;
@@ -110,8 +112,9 @@ header {
 }
 
 .dropdown_menu .action_btn {
-    width: 100%;
+    width: 35%;
     display: flex;
+    color: white;
     justify-content: center;
 }
 
