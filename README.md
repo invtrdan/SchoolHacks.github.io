@@ -1,2 +1,1 @@
-# School Hacks
-## The ultimate tool to map out your semester.
+The ultimate tool to map out your semester.
