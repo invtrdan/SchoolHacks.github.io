@@ -134,8 +134,8 @@ section#home {
 
 /* RESPONSIVE DESIGN */
 
-@media(max-width: 992px) {
-    .navbar .links,
+@media(max-width: 992px){
+    .navbar  .links,
     .navbar .action_btn {
         display: none;
     }
