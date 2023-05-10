@@ -2,39 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open-sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-body{
+body {
     height: 100vh;
-    background-color: white;
+    background-color: black;
     background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fillustrations%2Fplain-background-background-template-6055825%2F&psig=AOvVaw08TPiFaGuW1llpRMkVVQ6r&ust=1683789301870000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNjK2Yua6v4CFQAAAAAdAAAAABAR');
     background-size: cover;
     background-position: center;
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1rem;
 }
 
-a:hover{
+a:hover {
     color: blue;
 }
 
 /* HEADER */
 
-header{
+header {
     position: relative;
     padding: 0 2rem;
 }
 
-.navbar{
+.navbar {
     width: 100%;
     height: 60px;
     max-width: 1200px;
