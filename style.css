@@ -61,7 +61,7 @@ header{
 }
 
 .action_btn{
-    background-color: black;
+    background-color: blue;
     color: white;
     padding: 0.5rem 1rem;
     border: none;
@@ -70,4 +70,15 @@ header{
     font-size: 0.5rem;
     font-weight: bold;
     cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+.action_btn:hover{
+    scale: 1.05;
+    color: blue;
+}
+
+.action_btn:active{
+    scale: 0.95;
+    
 }
