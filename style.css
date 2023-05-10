@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background-color: black;
+    background-color: white;
     background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fillustrations%2Fplain-background-background-template-6055825%2F&psig=AOvVaw08TPiFaGuW1llpRMkVVQ6r&ust=1683789301870000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNjK2Yua6v4CFQAAAAAdAAAAABAR');
     background-size: cover;
     background-position: center;
@@ -68,7 +68,7 @@ header {
     border: none;
     outline: none;
     border-radius: 20px;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     font-weight: bold;
     cursor: pointer;
     transition: scale 0.2 ease;
